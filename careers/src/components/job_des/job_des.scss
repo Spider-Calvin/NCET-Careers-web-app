@@ -1,0 +1,38 @@
+.containner{
+    min-height: 100vh;
+    background-color: #eee;
+    margin:2rem 2rem;
+}
+
+.job_contnet_div{
+     width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  border-radius: 11px;
+
+}
+
+.job_btn{
+   
+  margin: 0% 30px;
+    p{
+      padding: 7px;
+      text-align: center;
+      border-radius: 8px;
+      display: inline;
+      color: rgb(255, 255, 255);
+      font-size: 14px;
+      font-weight: 700;
+      background-color: #009305;
+      cursor: pointer;
+
+  }
+}
+
+.JOB_con1{
+    padding: 0 2rem 2rem 2rem;
+}
+
+.b{
+    font-weight: 700 !important;
+}

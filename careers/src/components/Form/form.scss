@@ -1,0 +1,289 @@
+.form_container{
+    margin: 2rem 3rem;
+    background-color: white;
+     min-height: 65vh;
+    border-radius: 11px;
+    
+
+}
+.dept_con{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.dept_select{
+   border-radius: 20px;
+    cursor: pointer;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    font-size: 14px;
+    color: #242424;
+    font-weight: 600;
+
+      &:hover {
+      box-shadow: 0 0 15px #3079ff88;
+    }
+
+    background-color: #eee;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+    .lable{
+      padding-right: 20px;
+    }
+}
+
+select{
+  width: auto ;
+  border-radius: 8px;
+  padding: 10px;
+  color: #000000;
+}
+
+.p-text{
+    background-color: #eee;
+}
+
+
+
+.open_in_desk{
+    @media screen and (min-width:700px) {
+        display: none;
+    }
+}
+
+
+h2{
+  p{
+    color: #001a4b;
+    text-align: center !important;
+  }
+}
+
+.form {
+  width: 90%;
+  margin: auto !important;
+  flex-direction: column;
+  margin: 1rem 2rem;
+   @media screen and (max-width:700px) {
+        display: none;
+     }
+
+  .input{
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #eee;
+
+    transition: all 0.3s ease-in-out;
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 0.95rem;
+      border: none;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 7px;
+      color: #000000;
+      outline: none;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    &:hover {
+     box-shadow: 0 0 15px #1f60d988;
+    }
+  }
+
+  button {
+    padding: 1rem 2rem ;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff7e14;
+
+    font-weight: 500;
+    color: white;
+    outline: none;
+    margin: 2rem 0 2rem  3rem ;
+
+
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    cursor: pointer;
+
+    &:hover {
+      background-color: #eee;
+      color: #ff7e14;
+      font-weight: 800;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+.first_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .first_box1, .first_box2{
+      align-self: flex-start;
+        div{
+           text-align: center;
+        }
+        width: 50%;
+        .input{
+            width: 80% !important;
+            margin:1rem auto ;
+            
+            
+        }
+    }
+
+    .first_box2{
+        
+        div{
+            height: 170px !important;
+        }
+        .input{
+            padding: 2rem;
+            height: 100%;
+            text-align: center;
+            input{
+                height: 80px;
+                background-color: white;
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.textarea_con{
+margin-bottom: 1rem;
+}
+.full_width_area{
+    width: 90%;
+    margin: auto;
+
+    textarea{
+        width: 90% !important;
+        margin: auto;
+       
+    }
+
+}
+
+p{
+    text-align: start !important;
+    margin: 0;
+    padding: 10px 0px 0px 10px;
+}
+
+.edu_details_con{
+  width: 100%;
+  padding-top: 1.3rem;
+}
+
+.edu_btn_div{
+ display: flex;
+}
+
+.edu_btn_innerdiv{
+  display: flex;
+  margin: auto;
+}
+.edu_submit{
+  display: inline;
+ padding-top: 30px !important ;
+ height: 50px !important;
+ text-align: center;
+}
+
+
+ .edu_btn{
+  margin: 0% 30px;
+    p{
+      padding: 7px;
+      text-align: center;
+      border-radius: 8px;
+      display: inline;
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      background-color: #ff7e14;
+      cursor: pointer;
+   
+    }
+  }
+
+   .edu_btn_off{
+  margin: 0% 30px;
+    p{
+      padding: 7px;
+      text-align: center;
+      border-radius: 8px;
+      display: inline;
+  
+      font-size: 14px;
+      font-weight: 600;
+
+      cursor: pointer;
+
+        background-color: rgb(222, 222, 222);
+        color: #ff7e14;
+
+    }
+  }
+
+.edu_contnet_div{
+  width: 100%;
+  background-color: #eee;
+  margin-top: 1rem;
+  border-radius: 11px;
+}
+
+.phd_btn{
+margin-left: 40px !important;
+}
+
+.edu_background{
+  background-color: white  !important;
+   input{
+    background-color: white  !important;
+   }
+}
+
+.exp_con{
+  margin-top: 2rem;
+}
+.exp_banner{
+  text-align: center;
+}
+
+.edu_contnet_div1{
+  width: 100%;
+  background-color: #eee;
+  margin-top: 1rem;
+  border-radius: 11px;
+  padding-bottom: 2rem;
+}
+
+option{
+  text-align: center !important;
+}
+
+.con_disaaper{
+  display: none !important;
+}
+
+input::placeholder{
+  font-style: italic !important;
+  font-size: 12px;
+}

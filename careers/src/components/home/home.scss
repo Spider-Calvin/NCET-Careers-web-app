@@ -1,0 +1,246 @@
+.home{
+    background-color: #EEE;
+    margin: 0%;
+    padding: 0%;
+}
+.naac{
+    color: rgb(255, 255, 255);
+    background-color: #ff8725;
+    margin-top: 1rem;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.tittle{
+    margin-top: 6px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #001a4b;
+     @media screen and (max-width:780px) {
+        font-size: 25px;
+     }
+
+    
+}
+
+.info{
+    height: 400px;
+    margin: 2rem 3rem;
+    margin-top: 1rem ;
+    display: flex ;
+    
+    @media screen and (max-width:780px) {
+        flex-direction: column;
+        height: auto;
+        margin: 1rem 2rem;
+    }
+
+    .info_img{
+       width: 50rem ;
+       @media screen and (max-width:780px) {
+       width: 100%;
+       padding-bottom: 20px;
+       }
+
+       
+       img{
+        width: 100%;
+        border-radius: 11px ;
+       }
+    }
+
+    .info_desc{
+        width: 50rem ;
+        overflow: scroll;
+        
+        @media screen and (max-width:780px) {
+         width: 100%;
+         height: 400px ;
+         }
+
+        div{
+            border-radius: 11px;
+            padding: 0rem 3rem;
+            font-size: 17px;
+            @media screen and (max-width:780px) {
+                padding: 0rem;
+                font-size: 14px;
+            }
+           
+        }
+    }
+
+       .info_desc::-webkit-scrollbar{
+        width:10px;
+         @media screen and (max-width:780px) {
+                 width: 4px;
+                 color: #EEE;
+                 background-color: #EEE;
+            }
+        }
+      
+        .info_desc::-webkit-scrollbar-thumb{
+         background:rgb(137, 136, 136);
+         border-radius:8px;
+        
+        }
+}
+
+.apply{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 3rem;
+
+    @media screen and (max-width:780px) {
+         margin-top: 1.5rem;
+    }
+    
+    .apply_btn{
+        text-align: center;
+        justify-content: center;
+        padding:20px ;
+        background-color: #ff8725;
+        border-radius: 8px;
+        display: inline;
+        font-weight: 600;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+       
+         @media screen and (max-width:780px) {
+                padding: 10px;
+                font-size: 15px;
+            }
+           
+
+
+        svg{
+            font-weight: 700;
+            font-size: 22px;
+            position: relative ;
+            top: 6px;
+        }
+
+    }
+
+    .apply_btn:hover{
+           svg{
+            transform: translateX(0.25rem);
+           }
+        }
+}
+
+.cur_op{
+    margin: 2rem 3rem;
+    margin-top: 1rem ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 11px;
+    
+    @media screen and (max-width:780px) {
+        flex-direction: column;
+        height: auto;
+        margin: 1rem 2rem;
+    }
+
+    
+}
+
+.cur_tittle{
+    font-weight: 800;
+    font-size: 30px;
+    color: #001a4b;
+    padding-left: 10px;
+     @media screen and (max-width:780px) {
+         font-size: 20px;
+         text-align: center;
+     }
+   
+}
+
+.cur_jobs{
+    height: 350px;
+    overflow: scroll;
+
+    ul{
+        li{
+            font-size: 18px;
+            margin: 8px;
+            margin-top: 18px;
+            background-color: #EEE;
+            padding: 5px;
+            border-radius: 8px;
+
+            @media screen and (max-width:780px) {
+                font-size: 14px;
+                margin-right: 10px;
+            }
+
+            h4{
+                background-color: #002363;
+                color: white;
+                padding: 2px 5px !important;
+                margin-top: 5px !important;
+                display: inline-block;
+                border-radius: 8px;
+                margin-bottom: 0.3rem !important;
+            }
+
+          
+           button{
+                    background-color: #ff8725 ;
+                    color: white;
+                    font-weight: 500;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    border: none;
+
+                     @media screen and (max-width:780px) {
+                        font-size: 10px;
+                        display: block;
+                        margin-top: 10px;
+                     }
+            
+                }
+
+                 button:hover{
+                    color: rgb(255, 153, 0);
+                    background-color:rgb(255, 255, 255);
+                    border: none;
+            
+                 }
+
+                 div{
+                    padding: 8px 0px;
+                 }
+            
+
+
+
+        }
+
+    }
+}
+
+ .cur_jobs::-webkit-scrollbar{
+        width:10px;
+         @media screen and (max-width:780px) {
+                 width: 4px;
+            }
+        }
+.cur_jobs::-webkit-scrollbar-thumb{
+         background:rgb(139, 139, 139);
+         border-radius:8px;
+        
+        }
+ 
+@media screen and (min-width:1320px) {
+    .app__header-info{
+        margin-top: 5rem;
+    }
+    
+}    
+

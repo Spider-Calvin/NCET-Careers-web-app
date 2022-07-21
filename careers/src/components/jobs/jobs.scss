@@ -1,0 +1,144 @@
+.head-text{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.jobs_container{
+    margin:2rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+
+     @media screen and (max-width:780px) {
+        flex-direction: column;
+     }
+}
+
+.routed{
+    height: 100%;
+    width: 80%;
+}
+
+.line_btw{
+    background-color:#002363 ;
+    width: 5px;
+    border-radius: 3px;
+}
+
+.apply_links{
+    width: 30%;
+    height: 100%;
+    position: sticky;
+    top: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0 2rem;
+    border-radius: 8px;
+    padding: 15px;
+    
+     @media screen and (max-width:780px) {
+        flex-direction: column;
+     }
+}
+
+.banner_btn  {
+    background-color: #002363 ;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 12px;
+
+        @media screen and (max-width:780px) {
+        font-size: 10px;
+        display: block;
+        margin-top: 10px;
+}
+
+}
+
+.banner_btn_cl  {
+    background-color: #ff7e14 ;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px 12px;
+
+        @media screen and (max-width:780px) {
+        font-size: 10px;
+        display: block;
+        margin-top: 10px;
+}
+
+}
+
+.apply_container{
+    position: sticky;
+    top: 20px;
+    margin: 1rem 2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.apply_tittle{
+    background-color: #eee ;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align:center;
+    padding: 4px 12px;
+    text-justify:auto;
+    
+}
+
+.apply1{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 15px;
+    margin: 2rem 0rem;
+}
+
+.apply1:hover{
+   -webkit-box-shadow: 0 0 14px 4.5px #ddd;
+-moz-box-shadow: 0 0 14px 4.5px #ddd;
+box-shadow: 0 0 14px 4.5px #ddd;
+font-weight: 800;
+background-color: #002363;
+}
+
+.hod{
+  background-color:#e85d04;
+}
+
+.pro{
+ background-color:#ff7b00 ;
+}
+
+.aop{
+ background-color: #ff8800 ;
+}
+
+.asp{
+ background-color:  #f48c06;
+}
+
+.lab{
+background-color:#ff9500 ;
+}
+
+.non{
+background-color: #ffa200;
+}

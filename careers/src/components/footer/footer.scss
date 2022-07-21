@@ -1,0 +1,49 @@
+.footer{
+    background-color: #001a4b;
+    color: white;
+
+    .link{
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        padding: 13px 13px 0px 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          @media screen and (max-width:780px) {
+            flex-direction: column;
+          }
+
+        p:hover{
+            color: rgb(255, 149, 0);
+            cursor: pointer;
+        }
+    }
+
+
+     .link_imp{
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        padding: 5px;
+        padding-bottom: 2px !important;
+        display: flex;
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+          @media screen and (max-width:780px) {
+            flex-direction: column;
+          }
+
+        a{
+            padding-right: 30px;
+            padding: 0%;
+            color: #001a4b;
+        }
+
+        a:hover{
+            color: rgb(255, 149, 0);
+            cursor: pointer;
+        }
+    }
+}
